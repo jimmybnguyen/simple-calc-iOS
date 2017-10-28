@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func numPressed(_ sender: UIButton) {
-        if operationSelected {
+        if (operationSelected) {
             results.text = ""
             operationSelected = false
         }
