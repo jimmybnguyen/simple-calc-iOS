@@ -58,6 +58,7 @@ class ViewController: UIViewController {
         }
         results.text = results.text! + sender.titleLabel!.text!
     }
+    
     @IBAction func operationPressed(_ sender: UIButton) {
         if (results.text != "" && !operationSelected) {
             num1 = Double(results.text!)!
